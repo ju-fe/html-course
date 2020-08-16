@@ -1,7 +1,8 @@
 body {
-    background: white;
+    background: lightgray;
     color: #101010;
     font-family: 'Roboto', sans-serif;
+    padding: 0px;
 }
 
 h1 {
@@ -15,10 +16,12 @@ h2 {
 
 .content {
     width: 100%;
-    max-width: 750px;
+    max-width: 850px;
     margin: auto;
-    margin-top: 50px;
+    padding: 50px;
     background: white;
+    box-shadow: 12px 0 15px -4px #407E8B, -12px 0 8px -4px #407E8B;
+    height: 100vh;
 }
 
 .underlined {
@@ -30,7 +33,7 @@ h2 {
     max-width: 90px;
     height: auto;
     float: right;
-    margin-top: -90px;
+    margin-top: -80px;
     border: solid #407E8B 3px;
     border-radius: 50%;
 }
