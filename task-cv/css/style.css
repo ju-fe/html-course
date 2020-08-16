@@ -1,5 +1,6 @@
 body {
     background: white;
+    color: #101010;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -23,4 +24,13 @@ h2 {
 .underlined {
     border-bottom: solid darkgrey 2px;
     padding-bottom: 10px;
+}
+
+#photo {
+    max-width: 90px;
+    height: auto;
+    float: right;
+    margin-top: -90px;
+    border: solid #407E8B 3px;
+    border-radius: 50%;
 }
